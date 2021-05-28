@@ -1,0 +1,21 @@
+{
+  "name": "algorithm-problem",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "node algorithm.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/khawarjatoi/algorithm-problem.git"
+  },
+  "author": "Khawar Jatoi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/khawarjatoi/algorithm-problem/issues"
+  },
+  "homepage": "https://github.com/khawarjatoi/algorithm-problem#readme",
+  "dependencies": {
+    "wTesting": "^1.0.509"
+  }
+}
