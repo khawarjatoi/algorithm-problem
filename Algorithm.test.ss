@@ -1,6 +1,6 @@
 require( 'wTesting' );
 
-const _ = require( './algorithm.ss' );
+const _ = require( './Algorithm.ss' );
 
 function algorithm( test )
 {
