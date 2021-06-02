@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "test": "node algorithm.test.js"
+    "test": "node algorithm.test.ss"
   },
   "repository": {
     "type": "git",
