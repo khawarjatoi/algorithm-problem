@@ -22,6 +22,4 @@ module.exports.attempt = function( available, allowed, preferred )
      ),
     ];
   }
-
-
 };
