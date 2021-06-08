@@ -4,7 +4,7 @@ function getCommons( available, allowed )
   {
     return available;
   }
-  return available.filter( ( x ) => allowed.includes( x ))
+  return available.filter( ( x ) => allowed.includes( x ) )
 }
 
 function getUnique( value, index, self )
