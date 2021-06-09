@@ -80,7 +80,7 @@ function algorithm( test )
   var available = [ 240, 360 ];
   var allowed = [ 240, 360 ];
   var preferred = [ 720, 1080 ];
-  var expected = [ 240 ];
+  var expected = [ 360 ];
   var got = _.attempt( available, allowed, preferred );
   test.identical( got, expected );
 

@@ -23,7 +23,7 @@ function getList( commons, preferred )
     values = commons.find( ( y ) => y >= preferred[ x ] );
     if( !values )
     {
-      values = commons.sort( ( y, z ) => Math.abs( preferred[ x ] - z ) - Math.abs( preferred[ x ] - y ) )[ 0 ]
+      values = commons.sort( ( y, z ) => Math.abs( preferred[ x ] - y ) - Math.abs( preferred[ x ] - z ) )[ 0 ]
     }
     list.push( values )
     x++;
