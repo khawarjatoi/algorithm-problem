@@ -1,6 +1,11 @@
+function hasAny( arr )
+{
+  return arr.includes( 'any' );
+}
+
 function getCommons( available, allowed )
 {
-  if( allowed.includes( 'any' ) )
+  if( hasAny( allowed ) )
   {
     return available;
   }
@@ -35,7 +40,7 @@ function attempt( available, allowed, preferred )
 {
   let commons = getCommons( available, allowed );
 
-  if( preferred.includes( 'any' ) )
+  if( hasAny( preferred ) )
   {
     return commons;
   }
